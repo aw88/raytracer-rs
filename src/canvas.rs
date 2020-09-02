@@ -5,8 +5,8 @@ use std::path::Path;
 use crate::vector3::Vector3;
 
 pub struct Canvas {
-    width: usize,
-    height: usize,
+    pub width: usize,
+    pub height: usize,
     pixels: Vec<Vector3>,
 }
 
